@@ -1,95 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1,
-  maximum-scale=5"
-    />
-
-    <link rel="icon" href="devchallenges.png" />
-
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://devchallenges.io/"
-    />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-
-    <title>Devchallenges</title>
-
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404-NOT-FOUND</title>
     <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
+        @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Montserrat&family=Space+Mono:wght@400;700&display=swap');
+        * {
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+        }
+        html {
+        box-sizing: border-box;
+        }
+        *, *:before, *:after {
+        box-sizing: inherit;
+        }
 
-      ul {
-        padding-left: 24px;
-      }
+        header {
+            font-family: 'Inconsolata', monospace;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 25px;
+            letter-spacing: -0.08em;
+            text-transform: uppercase;
+        }
 
-      li {
-        margin-bottom: 8px;
-      }
+        section article h1 {
+            font-family: 'Space Mono', monospace;
+            font-weight: bold;
+            font-size: 64px;
+            line-height: 95px;
+            letter-spacing: -0.035em;
+            color: #333;
+        }
 
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
+        section article p {
+            font-family: Space Mono;
+            font-size: 24px;
+            line-height: 36px;
+            letter-spacing: -0.035em;
+            color: #4F4F4F;
+        }
 
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
+        .buttom {
+            background: #333;
+        }
+        .buttom a{
+            font-family: Space Mono;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 21px;
+            letter-spacing: -0.035em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
 
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
+        footer {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            color: #BDBDBD;
+        }
+        footer span {
+            font-weight: bold;
+            text-decoration: underline;
+        }
 
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
     </style>
-  </head>
-  <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
+</head>
+<body>
+    <header>
+        <p> 404 not found </p>
+    </header>
 
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
-      </div>
+    <main>
 
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
-    </div>
-  </body>
+        <figure>
+            <img src="img/Scarecrow.png" alt="Un loco espantapajaros">
+        </figure>
+
+        <section>
+            <article>
+                <h1>I have a bad news for you</h1>
+                <p>
+                    The page you are looking for might be removed or is temporaily unvailable
+                </p>
+
+                <div class="buttom">
+                    <a href="#">Back to page</a>
+                </div>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>created by <span>@RonnWeb</span> - devChallenges.io</p>
+    </footer>
+
+</body>
 </html>
