@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Montserrat&family=Space+Mono:wght@400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body {
+    width: 98%;
+}
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+.header {
+    margin-left: 40px;
+    margin-top: 25px;
+}
+.header__title{
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+}
+.main {
+    display: flex;
+    gap: 10px;
+}
+@media (max-width: 620px){
+    .main {
+        flex-direction: column;
+        margin-left: 25px;
+    }
+}
+.figure {
+    margin-top: 20px;
+    padding: 10px 60px 60px 60px;
+    flex: 1;
+}
+.figure__img {
+    width: 100%;
+}
+.section {
+    flex: 1;
+}
+
+.section__article__h1 {
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    color: #333;
+}
+.section__article__p {
+    font-family: 'Space Mono';
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+}
+
+.btn {
+    margin-top: 60px;
+}
+.btn__a--style {
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #333;
+}
+.btn__a {
+    padding: 20px 35px;
+}
+
+
+
+.footer {
+    padding-top: 100px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #BDBDBD;
+}
+.footer__p {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.footer__p--span {
+    font-weight: bold;
+}

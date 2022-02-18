@@ -4,105 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>404-NOT-FOUND</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Montserrat&family=Space+Mono:wght@400;700&display=swap');
-        * {
-            padding: 0;
-            margin: 0;
-            text-decoration: none;
-        }
-        html {
-        box-sizing: border-box;
-        }
-        *, *:before, *:after {
-        box-sizing: inherit;
-        }
-
-        header {
-            font-family: 'Inconsolata', monospace;
-            font-weight: bold;
-            font-size: 24px;
-            line-height: 25px;
-            letter-spacing: -0.08em;
-            text-transform: uppercase;
-        }
-
-        section article h1 {
-            font-family: 'Space Mono', monospace;
-            font-weight: bold;
-            font-size: 64px;
-            line-height: 95px;
-            letter-spacing: -0.035em;
-            color: #333;
-        }
-
-        section article p {
-            font-family: Space Mono;
-            font-size: 24px;
-            line-height: 36px;
-            letter-spacing: -0.035em;
-            color: #4F4F4F;
-        }
-
-        .buttom {
-            background: #333;
-        }
-        .buttom a{
-            font-family: Space Mono;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 21px;
-            letter-spacing: -0.035em;
-            text-transform: uppercase;
-            color: #FFFFFF;
-        }
-
-        footer {
-            font-family: Montserrat;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 17px;
-            text-align: center;
-            color: #BDBDBD;
-        }
-        footer span {
-            font-weight: bold;
-            text-decoration: underline;
-        }
-
-    </style>
 </head>
 <body>
-    <header>
-        <p> 404 not found </p>
+
+    <header class="header">
+        <p class="header__title"> 404 not found </p>
     </header>
 
-    <main>
+    <main class="main">
 
-        <figure>
-            <img src="img/Scarecrow.png" alt="Un loco espantapajaros">
+        <figure class="figure">
+            <img src="img/Scarecrow.png" alt="Un loco espantapajaros" class="figure__img">
         </figure>
 
-        <section>
-            <article>
-                <h1>I have a bad news for you</h1>
-                <p>
+        <section class="section">
+            <article class="section__article">
+                <h1 class="section__article__h1">I have a bad news for you</h1>
+                <p class="section__article__p">
                     The page you are looking for might be removed or is temporaily unvailable
                 </p>
 
-                <div class="buttom">
-                    <a href="#">Back to page</a>
+                <div class="btn">
+                    <a href="#" class="btn__a  btn__a--style ">Back to page</a>
                 </div>
             </article>
         </section>
 
     </main>
 
-    <footer>
-        <p>created by <span>@RonnWeb</span> - devChallenges.io</p>
+    <footer class="footer">
+        <p class="footer__p">created by <span class="footer__p--span">@RonnWeb</span> - devChallenges.io</p>
     </footer>
 
 </body>
